@@ -1,0 +1,29 @@
+📁 file name *netflix-2*
+
+👉 create a react app with npx-create-app
+	clean up 
+
+👉 setup firebase
+
+👉 create a `request.js` file and paste api key from TMDB. setup the urls
+
+👉 `npm i axios` and setup base url in `axios.js` 
+
+👉 create `Row` component 
+	useEffect for async all the data
+	create map for movie images
+	styling images
+	`poster_path` for isLargeRow: `backdrop_path` for rest
+	`row__posterLarge` className for large pictures 
+
+👉 create `Banner` component 
+	get the banner image
+	title and description
+	style the component
+
+👉 create `Nav` component
+
+👉 functionality to play trailer
+	`npm i react-youtube`
+	`npm i movie-trailer`
+	setup youtube embed for react
